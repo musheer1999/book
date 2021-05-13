@@ -1,0 +1,127 @@
+.placed-details{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.placed-shipping{
+   
+    height: max-content;
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.placed-billing{
+    
+    height: max-content;
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+.placed-method{
+    
+    height: 210px;
+    padding: 1em;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.placed-ordersummary{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.placed-ordertotal{
+border: 1px solid gray;
+height: auto;
+padding: 1em;
+border-radius: 10px;
+}
+.product-orderimg{
+    background-color: black;
+    width: 120px;
+    height: 100px;
+    margin-right: 10px;
+}
+.placed-suborderlist{
+    display: flex;
+}
+.placed-button{
+    position: relative;
+    left:43%;
+margin-bottom: 20px;
+}
+.product-sublistp{
+    max-width: 400px;
+}
+.placedproduct-price{
+    margin-left: 100px;
+}
+.placed-ordertotal {
+    height: max-content;
+}
+.placed-detailscontent{
+    display: flex;
+    justify-content: space-between;
+}
+.placed-detailname{
+    padding: 0;
+    margin: 0;
+}
+.placed-detailsprice{
+    margin-right: 20px;
+    padding: 0;
+}
+.placed-detailnametotal{
+    font-size: 23px;
+}
+.placed-detailspricetotal{
+    font-size: 23px;
+    margin-right: 10px;
+}
+@media only screen and (max-width: 770px){
+.placed-method{
+    height: 245px;
+}
+}
+@media only screen and (max-width: 660px){
+    .placedproduct-price{
+        margin-left: 0px;
+    }
+    .placed-button{
+        position: relative;
+        left:22%;
+    }
+    .product-orderimg{
+        margin-left: -15px;
+        width: 100px;
+        height: 100px;
+    }
+    .product-sublistp{
+        font-size: 17px;
+    }
+    .placedproduct-price{
+        position: relative;
+        left: 4%;
+    }
+    .placed-method{
+        height: max-content;
+    }
+}
+@media only screen and (max-width: 350px){
+    .product-orderimg{
+        margin-left: -20px;
+        width: 100px;
+        height: 80px;
+    }
+    .product-sublistp{
+        font-size: 14px;
+        max-width: 150px;
+    }
+    .placedproduct-price{
+        position: relative;
+        left: 4%;
+    }
+    .placed-method{
+        height: max-content;
+    }
+}

@@ -1,0 +1,71 @@
+.h2-p{
+    font-size: 1.3125rem;
+    font-weight: bold;
+}
+
+.h3-p, .p-p{
+    font-size: 0.875rem;
+}
+
+.h3-p{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.div-p{
+    position: relative;
+    flex: 1 1 0; 
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+}
+
+.ul-p{
+    padding: 8px;
+    margin: 0;
+    flex: 1 1 auto;
+    position: relative;
+    list-style: none;
+}
+
+.li-p{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.inner-div-p{
+    padding: 20px;
+    box-shadow: -5px -2px 15px 0px rgba(0, 0, 0, 0.322), 
+    5px 2px 15px 1px rgb(0 0 0 / 14%),
+    0px 3px 1px -2px rgb(0 0 0 / 12%);
+    border-radius: 2px;
+    width: 100%;
+}
+
+.bread-p{
+    padding-left: 28px;
+    padding-top: 28px;
+}
+.fileContainer [type=file]{
+    display: none;
+}
+.fileContainer .label{
+    color:white;
+    height: 40px;
+    width: max-content;
+    background-color: #f5af09;
+    position: relative;    
+    text-align: center;
+    left: -2%;    
+    border: none;
+    padding: 7px;
+    font-size: 20px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}

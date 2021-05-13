@@ -1,0 +1,9 @@
+export const TEST_DISPATCH = "TEST_DISPATCH";
+export const TEST_OTP = "TEST_OTP";
+export const GET_ERRORS = "GET_ERRORS";
+export const LOGIN_USER = "LOGIN_USER";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const USER_SETUP = "USER_SETUP";
+export const ADMIN_LOGIN = "ADMIN_LOGIN";
+export const SET_CURRENT_ADMIN = "SET_CURRENT_ADMIN";
+export const CHANGE_NUMBER = 'CHANGE_NUMBER'

@@ -1,0 +1,28 @@
+.about-col{
+    background-color: white;
+    margin: 20px 10%;
+    padding: 3% 7%;
+}
+
+.innerStyle p, .innerStyle ul li{
+    color: rgb(33, 43, 54);
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.innerStyle h3{
+    color: rgb(33, 43, 54);
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .about-col {
+        background-color: white;
+        margin: 20px 5%;
+        padding: 3% 7%;
+    }
+}

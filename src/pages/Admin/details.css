@@ -1,0 +1,17 @@
+.container-det {
+    width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 15px;
+}
+.det_card{
+    background-color:white;
+   padding:30px;
+}
+@media only screen and (max-width: 600px) {
+    .container-det {
+        width: 100%;
+    }
+}

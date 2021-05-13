@@ -1,0 +1,196 @@
+.buyerOrders-m {
+    background-color: white;
+    width: 90%;
+    box-shadow: -5px -2px 15px 0px #ffffff, 5px 2px 15px 1px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 4.1px solid gray;
+    border-right: 4.1px solid gray;
+    margin-left:auto;
+    margin-right:auto;
+}
+.flexbox-containerm {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 80%;
+  border-radius: 1rem;
+    padding: 1rem 1rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 4.1px solid gray;
+    border-right: 4.1px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+.flexbox-containerm-order {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FEF200;
+  width: 50%;
+  box-shadow: -5px -2px 15px 0px #ffffff, 5px 2px 15px 1px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 4.1px solid gray;
+  border-right: 4.1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+
+.flexbox-item-3 {
+    padding-bottom:20px;
+    align-self: flex-end;
+}
+
+.buyerordres-heading {
+    margin-left: 20px;
+}
+.buyerorder-maindiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+.buyerorder-placed {
+  color: gray;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.buyerorder-date {
+  margin: 0;
+  margin-top: -17px;
+  padding: 0;
+  font-weight: 600;
+  font-size: 22px;
+}
+.buyerorder-status {
+  font-weight: 600;
+  font-size: 20px;
+}
+.buyerorder-sold {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+  margin-top: "-5px";
+}
+.buyerorders-options {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 7%;
+  transform: translate(-1%, 8%);
+}
+.buyerorders-btn {
+  margin: 5px;
+  width: 250px;
+}
+.buyer-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+.buyerorders-div {
+  display: flex;
+  flex: 2;
+  padding: 1em;
+}
+.buyerorder-productname {
+  max-width: 600px;
+  font-size: 16px;
+  color: black;
+  border-bottom: 1px solid gray;
+}
+.buyerorder-basicdetials {
+  display: flex;
+  margin-top: -10px;
+}
+.buyerorder-basicdetials p {
+  margin-left: 10px;
+}
+.buyerorder-basicdetials p:first-child {
+  margin-left: 0;
+}
+@media only screen and (max-width:900px){
+    .flexbox-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 100%;
+        box-shadow: -5px -2px 15px 0px #ffffff, 5px 2px 15px 1px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+        border-radius: 1rem;
+        padding: 1rem 1rem;
+        margin-bottom: 0.8rem;
+        border-bottom: 4.1px solid gray;
+        border-right: 4.1px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .flexbox-containerm-order {
+      display: flex;
+      flex-wrap: wrap;
+      background-color: white;
+      width: 90%;
+      box-shadow: -5px -2px 15px 0px #ffffff, 5px 2px 15px 1px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+      border-radius: 1rem;
+      padding: 1rem 1rem;
+      margin-bottom: 0.8rem;
+      border-bottom: 4.1px solid gray;
+      border-right: 4.1px solid gray;
+      margin-left: auto;
+      margin-right: auto;
+  }
+}
+@media only screen and (max-width:850px) {
+    .flexbox-containerm {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 95%;
+        box-shadow: -5px -2px 15px 0px #ffffff, 5px 2px 15px 1px rgb(0 0 0 / 14%), 0px 3px 1px -2px rgb(0 0 0 / 12%);
+        border-radius: 1rem;
+        padding: 1rem 1rem;
+        margin-bottom: 0.8rem;
+        border-bottom: 4.1px solid gray;
+        border-right: 4.1px solid gray;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 550px) {
+  .buyer-image {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+  }
+  .buyerorder-productname {
+    width: 215px;
+    font-size: 14px;
+  }
+  .buyerorder-basicdetials {
+    position: relative;
+    left: -20%;
+    flex-wrap: wrap;
+    width: max-content;
+  }
+  .buyerorders-options {
+    transform: translate(0%, -8%);
+  }
+}
+@media only screen and (max-width: 360px) {
+  .buyer-image {
+    width: 60px;
+    height: 60px;
+  }
+  .buyerorder-productname {
+    max-width: 192px;
+  }
+  .buyerorder-basicdetials {
+    width: 350px;
+    font-size: 14px;
+    margin-left: -23px;
+  }
+}

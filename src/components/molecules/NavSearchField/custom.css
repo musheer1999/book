@@ -1,0 +1,11 @@
+.searchInput {
+    width: auto;
+}
+
+@media screen and (max-width: 500px){
+    .searchInput{
+        width: -webkit-fill-available;
+    }
+}
+
+

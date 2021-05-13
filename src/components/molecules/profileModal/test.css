@@ -1,0 +1,77 @@
+.modal-syle{
+    height: 100px;
+    width: 100px;
+}
+
+.modal-content{
+    margin-top: 40%;
+    width: 100%;
+    min-height: 64vh;
+}
+
+.form-control {
+    border: 1px solid #000;
+    margin: auto 1rem;
+}
+
+.form-group {
+    text-align: left;
+    margin-top: 0.9rem;
+    margin-right: 2rem;
+    border-radius: 0.25rem;
+}
+
+.modal-content{
+    border-radius: 1rem;
+}
+.modal-body {
+    padding: 0.2rem;
+}
+
+.addNum {
+    text-align: center;
+}
+
+.bankDetail p {
+    margin-left: 1rem;
+}
+
+.ucliq-edit{
+    width: 103%;
+    height: 150px;
+    border-radius: 1.4rem;
+    padding: 2rem;
+}
+
+
+.addNum button{
+    color: #fff;
+    background-color: #007bff;
+    font-weight: 400;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    position: relative;
+    padding: 10px 20px;
+    font-family: 'Proxima Nova Th';
+}
+
+.show {
+    height: 100%;
+    
+    background-size: cover;
+}
+
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 375px;
+        margin: 1.75rem auto;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .modal-content{
+        margin-top: 60%;
+        width: 100%;
+    }
+}

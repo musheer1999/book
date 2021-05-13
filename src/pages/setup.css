@@ -1,0 +1,18 @@
+.form-setup {
+    padding: 2% 2%;
+    width: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-setup {
+    color: white;
+    border: blue;
+}
+
+@media (max-width: 400px) {
+    .form-setup {
+        width: 100%;
+    }
+}

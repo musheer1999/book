@@ -1,0 +1,58 @@
+.my-card-img {
+  width: 25vw;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .my-card-img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+a,
+a:hover {
+  color: unset;
+}
+
+.carousel{
+    margin-top: 1em;
+    width: 40%;
+}
+.carousel-item > img {
+  width: inherit;
+  height: inherit;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  cursor: pointer;
+}
+
+.btn-group > .btn {
+    margin-top:1em;
+}
+.my-product-details{
+  padding: 1em;
+  width: 60%;
+}
+._btn-grp{
+  bottom: 0;
+}
+@media screen and (max-width: 600px){
+    .carousel{
+        margin:0;
+        width: 100%;
+    }
+    .carousel-item{
+        height: auto;
+    }
+    .no-margin-active{
+        padding: 0;
+        margin:0;
+    }
+    .my-product-details{
+        padding: 1em;
+        width: 100%;
+    }
+}

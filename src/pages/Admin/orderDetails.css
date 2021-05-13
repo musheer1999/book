@@ -1,0 +1,128 @@
+.details-image{
+    width: 300px;
+    height: 300px;
+    margin-right: 20px;
+}
+.Details-div{
+    display: flex;
+    flex-wrap: wrap;
+    border:2px solid gray;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 5px 10px 8px 2px #888888;
+}
+.Details-productname{
+    max-width: 500px;
+    font-size: 16px;
+    border-bottom: 1px solid gray;
+}
+.Details-basicdetials{
+    display: flex;
+    margin-top: -10px;
+
+}
+.Details-basicdetials p {
+    /* border-right: 1px solid gray; */
+    margin-left: 10px;
+}
+.Details-basicdetials p:first-child{
+    margin-left: 0;
+}
+.Details-basicdetials p:last-child{
+    border-right: none;
+}
+.Details-paymentbasic{
+    display: flex;
+    margin-top: -10px;
+}
+.Details-paymentbasic p{
+    /* border-right: 1px solid gray; */
+    margin-left: 10px;
+}
+.Details-paymentbasic p:last-child{
+    border-right: none;
+}
+.Details-paymentbasic p:first-child{
+    margin-left: 0;
+}
+.details-buyeraddress{
+    max-width: 450px;
+    margin-top: -10px;
+}
+.details-selleraddress{
+    max-width: 450px;
+    margin-top: -10px;
+}
+.details-buyerseller{
+    display: flex;
+    max-width: 700px;
+}
+.buyer-div{
+    border: 1px solid gray;
+     background-color: white; 
+    padding: 1em;
+    border-radius: 10px;
+}
+.seller-div{
+    margin-left: 20px;
+    border: 1px solid gray;
+    background-color: white; 
+    padding: 1em;
+    border-radius: 10px;
+}
+@media only screen and (max-width: 780px){
+    .details-buyerseller{
+        flex-wrap: wrap;
+    }
+    .seller-div{
+        margin-left: 0;
+    }  
+}
+@media only screen and (max-width: 660px){
+    .details-buyerseller{
+        flex-wrap: wrap;
+    }
+    .Details-div{
+        border: none;
+        margin-left: -15px;
+    }
+    .details-image{
+        width: 200px;
+        height: 200px;
+        position: relative;
+        left: 13%;
+        margin: 10px;
+    }
+    .Details-productname{
+        max-width: 330px;
+    }
+    .Details-paymentbasic{
+        display: block;
+    }
+    .Details-basicdetials{
+        width:max-content
+    }
+    .Details-paymentbasic p{
+        margin-left: 0;
+        margin-top: -15px;
+        border-right: none;
+    }
+   .seller-div{
+       margin-left: 0;
+   }
+}
+@media only screen and (max-width: 360px){
+    .Details-productname{
+        max-width: 290px;
+    }
+    .details-selleraddress{
+        max-width: 240px;
+    } 
+    .details-buyeraddress{
+        max-width: 240px;
+    } 
+    .Details-basicdetials{
+        width:350px;
+        font-size: 14px;
+    }  
+}

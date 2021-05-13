@@ -1,0 +1,42 @@
+.contain {
+  width: 50%;
+  max-width: 100%;
+}
+.btn-admin-login {
+    width: 30%;
+    border: Blue;
+    color: white;
+    text-align: center;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 771px) {
+    .contain {
+    width: 100%;
+  }
+}
+
+.mr-sm-2 {
+  padding-left: 20px;
+  padding-right: 50px;
+}
+
+.firstdiv {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.containeradminlogin {
+  width: 70%;
+  margin-top: 20px;
+}
+
+.logo-admin {
+  height: 7%;
+  width: 17%;
+  margin-top: 20px;
+}

@@ -1,0 +1,64 @@
+{
+  "name": "ucliq",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
+    "jwt-decode": "^2.2.0",
+    "lodash": "^4.17.20",
+    "modules": "^0.4.0",
+    "react": "^16.13.1",
+    "react-advanced-form": "^1.7.2",
+    "react-alice-carousel": "^1.19.3",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "^16.13.1",
+    "react-dropzone": "^11.2.4",
+    "react-icon": "^1.0.0",
+    "react-icons": "^3.10.0",
+    "react-modal": "^3.11.2",
+    "react-otp-input": "^2.0.2",
+    "react-pdf": "^4.1.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^3.4.3",
+    "react-simple-image-slider": "^1.0.4",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "socket.io-client": "^2.3.0",
+    "tiny-slider": "^2.9.3",
+    "validator": "^13.0.0",
+    "yarn": "^1.22.4"
+  },
+  "scripts": {
+    "start": "set PORT=3000 && react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}

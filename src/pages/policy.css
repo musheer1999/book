@@ -1,0 +1,35 @@
+.about-col h3,p, ol li, ul li {
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 20px;
+    font-size: 18px;
+}
+.about-col table {
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 20px;
+    border-collapse: collapse;
+    width: 60%;
+  }
+
+.about-col p{
+    margin: 1rem 1rem;
+}
+
+.about-col ul li, ol li {
+    margin: 0.5rem 0.5rem;
+}
+td, th {
+    border: 1px solid #dddddd;
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+

@@ -1,0 +1,38 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    width: auto;
+    height: auto;
+    background-color: white;
+    box-shadow: #6d7c89 0 2px 5px;
+    border-radius: 4px;
+    margin: 1em 0;
+}
+
+.card-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.card-img img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.card-title{
+    font-size: 1.5em;
+    font-family: "Segoe UI Light", serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.callToAction button{
+    background-color: #ffea85;
+    border-style: none;
+    border-radius: 4px;
+    padding: 7px;
+    text-align: center;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\organisms",
+    "\\src\\components\\organisms\\category-section",
+    "\\src\\components\\organisms\\homeFeatured",
+    "\\src\\components\\organisms\\nav-section",
+    "\\src\\components\\organisms\\productsOfCategory",
+    "\\src\\pages",
+    "\\src\\pages\\Admin"
+  ],
+  "SelectedNode": "\\src\\pages\\otpLogin.js",
+  "PreviewInSolutionExplorer": false
+}

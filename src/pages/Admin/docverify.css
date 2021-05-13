@@ -1,0 +1,25 @@
+.table{
+    margin-left:auto;
+    margin-right:auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-verify{
+    width:80%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.btn-doc-verify {
+    color: white;
+    background-color: blue;
+    border: blue;
+}
+
+@media only screen and (max-width: 600px) {
+    .container-verify {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

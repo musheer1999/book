@@ -1,0 +1,23 @@
+.container_update_pro {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+.upd-btn{
+    color:white;
+    border:blue;
+    position:relative;
+    left:65%
+}
+@media only screen and (max-width: 600px) {
+    .container_update_pro {
+        width: 100%;
+    }
+    .upd-btn {
+        position: relative;
+        left:0%;
+    }
+}
